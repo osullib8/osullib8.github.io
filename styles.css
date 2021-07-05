@@ -32,7 +32,7 @@
     min-height: 1200px;
     background-image: url(Images/IMG_1155.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     position: bottom;
     filter: blur(8px);
     height: 100vh;
@@ -75,9 +75,22 @@
     text-align: center;
 }
 
+.navbar-expand .botnav {
+    flex-direction: row;
+}
+
+body{
+    margin: 0px;
+   }
+
 .botnav {
     position: fixed;
     bottom: 0; 
+    margin: 0 auto;
     width: 100%;
     z-index: 2;
+}
+
+.spacing {
+    padding-left: 2px;
 }
